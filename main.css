@@ -283,23 +283,23 @@ a {
 .section.section--clients svg {
   fill: #343436;
 }
-.section.section--Certifications {
+.section.section--knowledge {
   background-color: orange;
   color: white;
 }
-.section.section--Certifications svg {
+.section.section--knowledge svg {
   top: -20px;
   fill: orange;
 }
-.section.section--Certifications svg.bottom {
+.section.section--knowledge svg.bottom {
   top: auto;
   bottom: -50px;
 }
-.section.section--Certifications1 {
+.section.section--knowledge1 {
   background-color: #3A99D8;
   color: white;
 }
-.section.section--Certifications1 svg {
+.section.section--knowledge1 svg {
   top: -50px;
   fill: #3A99D8;
 }
@@ -441,3 +441,15 @@ p a:hover {
   padding: 3px 3px 28px 3px;
   display:inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
