@@ -446,7 +446,15 @@ p a:hover {
 
 
 
-
+.skills{
+    height: 50px;
+    width: 60px;
+    margin-right: 2%;
+}
+.skills-section{
+    width: 100%;
+    height: auto;
+}
 
 
 
