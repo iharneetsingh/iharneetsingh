@@ -262,7 +262,7 @@ a {
   margin: auto auto auto 0;
 }
 .section.section--hello {
-  background-color: #FDEF52;
+  background-image: linear-gradient(to top, #ffffff, #ffefff, #ffd8dd, #ffdc7d, #ffff00);
   color: #181818;
 }
 .section.section--intro {
@@ -284,12 +284,12 @@ a {
   fill: #343436;
 }
 .section.section--knowledge {
-  background-color: orange;
-  color: white;
+  background-color: whitesmoke;
+  color: #555;
 }
 .section.section--knowledge svg {
   top: -20px;
-  fill: orange;
+  fill: whitesmoke;
 }
 .section.section--knowledge svg.bottom {
   top: auto;
@@ -452,10 +452,5 @@ p a:hover {
     width: 100%;
     height: auto;
 }
-
-
-
-
-
 
 
