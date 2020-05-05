@@ -214,7 +214,7 @@ a {
   transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
 }
 .anchornav a span {
-  display: inline;
+  display: -webkit-box;
   padding: .5em 0 0;
   opacity: .3;
   letter-spacing: normal;
@@ -267,8 +267,7 @@ a {
   margin: auto auto auto 0;
 }
 .section.section--hello {
-  background-image: linear-gradient(to top, #ffffff, #ffefff, #ffd8dd, #ffdc7d, #ffff00);
-  color: #181818;
+  background-image: linear-gradient(to bottom, #e92f2f, #f10058, #eb0083, #d514ae, #aa41d5, #9a5ee6, #8a75f4, #7c88fd, #a4a4fe, #c6c1ff, #e4e0ff, #ffffff);    color: #181818;
 
   
 }
@@ -285,12 +284,12 @@ a {
   fill: #de5f5f;
 }
 .section.section--clients {
-  background-color: #343436;
+  background-color: #555555;
   color: white;
 
 }
 .section.section--clients svg {
-  fill: #343436;
+  fill: #555555;
 }
 .section.section--knowledge {
   background-color: whitesmoke;
@@ -487,9 +486,7 @@ p a:hover {
     h2 a{
       font-size: smaller;
     }
-
-
-
-
   }
 }
+
+
