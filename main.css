@@ -162,13 +162,16 @@ a {
   word-spacing: .5rem;
 }
 .side .top {
-  top: 25px;
+  top: 40px;
   text-align: right;
   color: black;
+  font-size: larger;
 }
 .side .bottom {
   top: auto;
   bottom: 75px;
+  font-size: larger;
+
 }
 .side .bottom:hover a {
   color: rgba(0, 0, 0, 0.2);
@@ -217,6 +220,8 @@ a {
   letter-spacing: normal;
   font-family: "ff-meta-serif-web-pro", serif;
   text-transform: none;
+  font-size: medium;
+    color: black;
 }
 .anchornav a:hover {
   color: #de5f5f;
@@ -241,7 +246,7 @@ a {
   min-height: 60vh;
   width: 100%;
   align-content: center;
-  padding: 20vh 50px 20vh 75px;
+  padding: 15vh 50px 25vh 75px;
 }
 .section svg {
   position: absolute;
@@ -264,10 +269,13 @@ a {
 .section.section--hello {
   background-image: linear-gradient(to top, #ffffff, #ffefff, #ffd8dd, #ffdc7d, #ffff00);
   color: #181818;
+
+  
 }
 .section.section--intro {
   background-color: white;
   color: #555;
+
 }
 .section.section--about {
   background-color: #de5f5f;
@@ -279,6 +287,7 @@ a {
 .section.section--clients {
   background-color: #343436;
   color: white;
+
 }
 .section.section--clients svg {
   fill: #343436;
@@ -286,6 +295,7 @@ a {
 .section.section--knowledge {
   background-color: whitesmoke;
   color: #555;
+
 }
 .section.section--knowledge svg {
   top: -20px;
@@ -298,6 +308,7 @@ a {
 .section.section--knowledge1 {
   background-color: #3A99D8;
   color: white;
+
 }
 .section.section--knowledge1 svg {
   top: -50px;
@@ -309,6 +320,7 @@ a {
 }
 .section.section--contact svg {
   fill: white;
+
 }
 
 /**
@@ -414,32 +426,13 @@ p a:hover {
     width: 30%;
   }
 }
-.Certifications .link {
-  display: block;
-  margin: 2em 0 0 0;
-  color: #555;
-  letter-spacing: 2px;
-  font-size: 12px;
-}
-.Certifications p {
-  font-size: inherit;
-  color: #343436;
-  opacity: .7;
-}
+
 
 .header {
   text-align: center;
   width: 100%;
   margin: auto;
   height: 25px;
-}
-
-.pentagon {
-  width: 300px;
-  height: 300px;
-  margin: auto;
-  padding: 3px 3px 28px 3px;
-  display:inline-block;
 }
 
 
@@ -454,3 +447,49 @@ p a:hover {
 }
 
 
+.footerimg{
+  height: auto;
+  width: auto;
+  align-items: center;
+  
+}
+.fimg{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .section.section--hello {
+    height: -webkit-fill-available;
+  }
+  .section.section--about {
+    height: -webkit-fill-available;
+  }
+
+  .section.section--contact{
+    height: -webkit-fill-available;
+
+  }
+  
+  
+  .section.section--clients {
+    height: -webkit-fill-available;
+  }
+  .section.section--knowledge1 {
+    height: -webkit-fill-available;
+  }
+
+  .section.section--intro{
+    height: -webkit-fill-available;
+  }
+  @media only screen and (max-width: 320px) {
+    h2 a{
+      font-size: smaller;
+    }
+
+
+
+
+  }
+}
