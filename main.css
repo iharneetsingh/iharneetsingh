@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "ff-meta-serif-web-pro", serif;
-  color: #555;
+  color: black;
   font-size: 16px;
 }
 @media (min-width: 6.25em) {
@@ -170,6 +170,7 @@ a {
 .side .bottom {
   top: auto;
   bottom: 75px;
+  color: black;
   font-size: larger;
 
 }
@@ -214,7 +215,8 @@ a {
   transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
 }
 .anchornav a span {
-  display: -webkit-box;
+   display: inline;
+  
   padding: .5em 0 0;
   opacity: .3;
   letter-spacing: normal;
@@ -267,29 +269,31 @@ a {
   margin: auto auto auto 0;
 }
 .section.section--hello {
-  background-image: linear-gradient(to bottom, #e92f2f, #f10058, #eb0083, #d514ae, #aa41d5, #9a5ee6, #8a75f4, #7c88fd, #a4a4fe, #c6c1ff, #e4e0ff, #ffffff);    color: #181818;
-
+background-color: #FEBE28;
   
 }
+.section.section--intro svg {
+  fill: #aae474;
+}
 .section.section--intro {
-  background-color: white;
-  color: #555;
+  background-color: #aae474;
+  color: black;
 
 }
 .section.section--about {
-  background-color: #de5f5f;
+  background-color: #e74444;
   color: white;
 }
 .section.section--about svg {
-  fill: #de5f5f;
+  fill: #e74444;
 }
 .section.section--clients {
-  background-color: #555555;
+  background-color: #702E52;
   color: white;
 
 }
 .section.section--clients svg {
-  fill: #555555;
+  fill: #702E52;
 }
 .section.section--knowledge {
   background-color: whitesmoke;
@@ -297,28 +301,27 @@ a {
 
 }
 .section.section--knowledge svg {
-  top: -20px;
   fill: whitesmoke;
 }
-.section.section--knowledge svg.bottom {
-  top: auto;
-  bottom: -50px;
-}
+
+
 .section.section--knowledge1 {
   background-color: #3A99D8;
   color: white;
 
 }
 .section.section--knowledge1 svg {
-  top: -50px;
   fill: #3A99D8;
 }
 .section.section--pepperhill svg {
-  top: -50px;
   fill: #3A99D8;
 }
 .section.section--contact svg {
   fill: white;
+
+}
+.section.section--contact{
+  background-color: white;
 
 }
 
@@ -344,7 +347,7 @@ h1 a:hover, .h1 a:hover, h2 a:hover, .h2 a:hover, h3 a:hover, .h3 a:hover, h4 a:
   border-bottom: .1875rem solid;
 }
 h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h5 span {
-  color: #de5f5f;
+  color: #e74444;
 }
 
 h1, .h1 {
