@@ -269,32 +269,26 @@ a {
   margin: auto auto auto 0;
 }
 .section.section--hello {
-background-color: #FEBE28;
+background-color: white;
+color: black;
   
 }
 .section.section--intro svg {
-  fill: #aae474;
+  fill: #e74444;
 }
 .section.section--intro {
-  background-color: #aae474;
+  background-color: #e74444;
   color: black;
 
 }
 .section.section--about {
-  background-color: #e74444;
-  color: white;
+  background-color: white;
+  color: #555;
 }
 .section.section--about svg {
-  fill: #e74444;
+  fill: white;
 }
-.section.section--clients {
-  background-color: #702E52;
-  color: white;
 
-}
-.section.section--clients svg {
-  fill: #702E52;
-}
 .section.section--knowledge {
   background-color: whitesmoke;
   color: #555;
@@ -313,8 +307,15 @@ background-color: #FEBE28;
 .section.section--knowledge1 svg {
   fill: #3A99D8;
 }
-.section.section--pepperhill svg {
-  fill: #3A99D8;
+
+
+.section.section--clients {
+  background-color: #555;
+  color: white;
+
+}
+.section.section--clients svg {
+  fill: #555;
 }
 .section.section--contact svg {
   fill: white;
